@@ -1,2 +1,4 @@
 # hello-world
-This is a test repository. 
+Hello!
+I am making chanches here!
+I like Python. And CSS. And HTML.
