@@ -1,0 +1,38 @@
+* {
+    background-color: rgb(0, 0, 0);
+    font-family: 'Georgia';
+}
+
+.heading {
+    color:green;
+    font-weight: bold;
+    text-align: center;
+}
+
+img {    
+    display: block;
+    margin:auto;
+    width: 80%;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    padding: 2px;
+    transition: width 2.5s;
+}
+
+img:hover {
+    box-shadow: 0 0 16px 1px rgba(0, 128, 0, 0.815);
+    width: 100%;
+}
+
+div {
+    display: block;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: auto;
+    background-color: inherit;
+}
+
+.paragraph {
+    color: green; 
+    font-size: 20px;
+}
