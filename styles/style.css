@@ -32,7 +32,7 @@ body {
 .h1:hover {
   background-clip: text;
   -webkit-background-clip: text;
-  background-image: url(back.jpg);
+  background-image: url(../media/back.jpg);
   
   color: transparent;
   -webkit-text-stroke: 1.5px goldenrod;
