@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
-
+/*div container of main heading*/
 .title {
   background-image: url("https://bit.ly/3rylnty");
   background-size: cover;
@@ -15,7 +15,7 @@ body {
   border-radius: 9px;
   -webkit-border-radius: 9px;  
 }
-
+/*header of the page*/
 .h1 {
   text-align: center;
   color:white;
@@ -39,7 +39,7 @@ body {
   
 }
 
-
+/*Navigation bar*/
 .topnav {
   overflow: hidden;
   background-color: #333;
@@ -67,4 +67,38 @@ body {
 .topnav a.active {
   background-color: goldenrod;
   color: white;
+}
+
+/*Articles div*/
+#article {
+  padding-left:16px; 
+  background-color:#333;
+  color:white;
+  margin-top: 2%;
+  margin-left:0.5%;
+  margin-right:0.5%;
+  padding-top: 1px;
+  padding-bottom: 1px ;
+  border-radius: 9px;
+  -webkit-border-radius: 9px;  
+  }
+
+/*Link to GitHub*/
+#togithub a:link {
+  color: goldenrod;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#togithub a:hover {
+  color: goldenrod;
+}
+  
+#togithub a:visited {
+  color: rgb(202, 172, 0);
+  text-decoration: none;
+}
+
+#togithub {
+  line-height: 30px;
 }
