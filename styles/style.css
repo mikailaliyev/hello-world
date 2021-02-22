@@ -33,14 +33,13 @@ body {
   padding-top: 2px;
   padding-bottom: 2px;
   font-size: 10vw ;
-  backdrop-filter: blur(3px);
   }
 
 .h1:hover {
   background-clip: text;
   -webkit-background-clip: text;
-  background-image: url(../media/back.jpg);
-  
+  background-image: url("https://bit.ly/3pHHegH");
+  backdrop-filter: blur(2px);
   color: transparent;
   -webkit-text-stroke: 1.5px goldenrod;
   
@@ -104,6 +103,10 @@ body {
 
 #togithub a:hover {
   color: greenyellow;
+}
+
+#togithub a:active {
+  color:rgb(255, 217, 0);
 }
   
 #togithub {
