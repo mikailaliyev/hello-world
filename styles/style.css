@@ -46,6 +46,18 @@ body {
   
 }
 
+.h1::selection {
+  color: #00B9E4;
+}
+
+.io::selection {
+  color:#ED2939;
+}
+
+.cre::selection {
+  color: #3F9C35;
+}
+
 /*Navigation bar*/
 .topnav {
   overflow: hidden;
